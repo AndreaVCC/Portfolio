@@ -3,11 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.0",
+    "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
     "materialize-css": "^1.0.0-rc.2",
+    "nodemailer": "^6.0.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "wow.js": "^1.2.2"
   },
   "scripts": {
     "start": "react-scripts start",
