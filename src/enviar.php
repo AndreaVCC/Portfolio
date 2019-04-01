@@ -3,7 +3,7 @@
 
 
 $nombre = $_POST['nombre'];
-$mail = $_POST['mail'];
+$mail = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 
 $header = 'From: ' . $mail . " \r\n";
