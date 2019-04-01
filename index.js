@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.css'
+/*
+document.getElementById("idBtnEnviar").addEventListener("click",function(){
+    const strNombre = document.getElementById("nombre").value;
+    const strEmail = document.getElementById("email").value;
+    const strTexto = document.getElementById("texto").value;
 
-ReactDOM.render(<App />, document.getElementById('root'));
+    if(strNombre != "" && strEmail != "" && strTexto != ""){
+        const datos ={
+            n: strNombre,
+            e: strEmail,
+            t: strTexto
+        }
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+        
+    }else{
+        alert("Rellena los campos");
+    }
+});
+*/
