@@ -1,19 +1,16 @@
 <?php
 
-header("Content-type: text/html;charset=\"utf-8\"");
+<?php
+$nombre = $_POST['nombre'];
+$asunto = $_POST['email'];
+$mensaje = $_POST['mensaje'];
 
-$myemail = 'a.carreocoppo2@gmail.com';
-$name = $_POST['nombre'];
-$email = $_POST['email'];
-$message = $_POST['mensaje'];
+echo "<h2>Informacion recibida desde PHP</h2>";
+echo "El nombre recibido es: " . $nombre . "<br/>";
+echo "El asunto recibido es: " . $asunto . "<br/>";
+echo "El mensaje recibido es: " . $mensaje . "<br/>";
 
-$to = $myemail;
-$email_subject = "Nuevo mensaje: $subject";
-$email_body = "Haz recibido un nuevo mensaje. \n Nombre: $name \n Correo: $email \n Mensaje: \n $message";
-$headers = "From: $email";
-
-mail($to, $email_subject, $email_body, $headers);
-echo "El mensaje se ha enviado correctamente";
+?>
 
 
 /*e crea variable y le da el valor que tnga el input
