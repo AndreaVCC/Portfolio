@@ -31,4 +31,11 @@ p {
 
 ion-icon {
     font-size: 50px;
+    
+}
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
 }
