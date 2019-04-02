@@ -19,3 +19,12 @@ ion-icon {
 p{
       font-size: 20px;
   }
+
+  #formulario {  
+   
+    transition: opacity .5s;
+  }
+  
+  #formulario.fade {
+    opacity:0;
+  }
