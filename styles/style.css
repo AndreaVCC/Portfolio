@@ -1,5 +1,5 @@
-body{
-     font-family: 'Open Sans Condensed', sans-serif; 
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
@@ -14,21 +14,21 @@ nav ul a {
 
 ion-icon {
     font-size: 70px;
-  }
+}
 
-p{
-      font-size: 20px;
-  }
+p {
+    font-size: 20px;
+}
 
-  #formulario {  
-   
+#formulario {
+
     transition: opacity .5s;
-  }
-  
-  #formulario.fade {
-    opacity:0;
-  }
+}
 
-  ion-icon {
+#formulario.fade {
+    opacity: 0;
+}
+
+ion-icon {
     font-size: 50px;
-  }
+}
