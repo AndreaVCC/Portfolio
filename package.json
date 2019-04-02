@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.0",
+    "aos": "^2.3.4",
     "body-parser": "^1.18.3",
     "bootstrap": "^4.3.1",
     "materialize-css": "^1.0.0-rc.2",
