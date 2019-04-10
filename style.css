@@ -39,3 +39,7 @@ ion-icon {
     overflow: hidden;
     height: 400px;
 }
+
+.card .card-content p {
+    margin: 10px;
+}
