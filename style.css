@@ -43,3 +43,12 @@ ion-icon {
 .card .card-content p {
     margin: 10px;
 }
+
+
+@media only screen and (min-width: 700px){
+    .grey-text.text-darken-4 {
+        color: #212121 !important;
+        margin-top: 60px;
+        margin-bottom:60px;
+    }
+}
